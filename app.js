@@ -194,8 +194,8 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// print the instance it self 
+// print the instance 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// print the window object 
+// print the object 
 // 3. Explain why "this" is different when an arrow function is used.
-// because the arrow function use the value of this in thier lexical scop."googl"
+// The value of this inside an arrow function remains the same throughout the lifecycle of the function and is always bound to the value of this in the closest non-arrow parent function."google"
